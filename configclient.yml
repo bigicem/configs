@@ -4,6 +4,12 @@ server:
 spring:
   application:
     name: CONFIGCLIENT
+  rabbitmq:
+    host: 192.168.145.131
+    port: 5672
+    username: ems
+    password: ems
+    virtual-host: /ems
 
 
 
